@@ -3,6 +3,7 @@ import { useState } from "react";
 import { Model } from "./Blender";
 
 const audio = new Audio("/nn.mp3");
+audio.loop = true;
 
 const playAudio = () => {
   audio.play();
